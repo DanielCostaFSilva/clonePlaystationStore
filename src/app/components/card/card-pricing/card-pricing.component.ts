@@ -1,15 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css'],
+  selector: 'app-card-pricing',
+  templateUrl: './card-pricing.component.html',
+  styleUrls: ['./card-pricing.component.css'],
 })
-export class CardComponent implements OnInit {
-  @Input()
-  gameCover: String = '';
-  @Input()
-  gameLabel: String = '';
+export class CardPricingComponent implements OnInit {
   @Input()
   gameType: String = '';
   @Input()
